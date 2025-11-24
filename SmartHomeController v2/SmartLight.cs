@@ -44,6 +44,12 @@ namespace SmartHomeController
             Console.WriteLine($"Colour now set to {Colour}");
         }
 
+        public override void GetStatus()
+        {
+            base.GetStatus();
+            Console.WriteLine("This is a smart light.");
+            Console.WriteLine($"Brightness: {Brightness}%, Colour: {Colour}");
+        }
 
     }
 }

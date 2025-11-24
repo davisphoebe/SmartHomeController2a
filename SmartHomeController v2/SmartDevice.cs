@@ -53,5 +53,11 @@ namespace SmartHomeController
             this.Status = false;
         }
 
+        public virtual void GetStatus()
+        {
+            Console.WriteLine($"Device ID: {DeviceID}, Name: {DeviceName}, Staus (on or off): {(Status ? "ON" : "OFF")}");
+        }
+
+
     }
 }
