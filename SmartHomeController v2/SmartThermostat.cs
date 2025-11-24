@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmartHomeController
 {
-    public class SmartThermostat
+    public class SmartThermostat : SmartDevice
     {
 
         // Private fields

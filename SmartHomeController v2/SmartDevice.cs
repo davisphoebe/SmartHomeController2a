@@ -33,6 +33,7 @@ namespace SmartHomeController
             set { status = value; }
         }
 
+        // Constructor
         public SmartDevice(int deviceID, string deviceName)
         {
             this.DeviceID = deviceID;
@@ -41,6 +42,7 @@ namespace SmartHomeController
 
         }
 
+        // Methods to turn all devices on and off
         public void TurnOn()
         {
             this.Status = true;

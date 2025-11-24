@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmartHomeController
 {
-    public class SmartSpeaker
+    public class SmartSpeaker : SmartDevice
     {
         // Private fields
         private int volume;

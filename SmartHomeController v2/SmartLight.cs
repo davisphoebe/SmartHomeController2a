@@ -24,14 +24,14 @@ namespace SmartHomeController
             set { colour = value; }
         }
 
-        // Constructor
+        // Default constructor includes base class constructor information
         public SmartLight(int deviceID, string deviceName) : base(deviceID, deviceName)
         {
             this.Brightness = 0.5; // Default brightness
             this.Colour = "White"; // Default colour
         }
 
-
+        // Methods to set brightness and colour
         public void SetBrightness(double brightness)
         {
             this.Brightness = brightness;

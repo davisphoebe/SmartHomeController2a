@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace SmartHomeController
 {
-    public class SmartSecurityCamera
+    public class SmartSecurityCamera : SmartDevice
     {
         // Private fields
         private string resolution;
@@ -21,6 +21,7 @@ namespace SmartHomeController
         }
 
 
+        // SmartSecurityCamera constructor
         public SmartSecurityCamera(string cameraResolution)
         {
             this.Resolution = cameraResolution;
