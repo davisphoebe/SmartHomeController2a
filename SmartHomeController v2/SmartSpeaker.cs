@@ -25,7 +25,7 @@ namespace SmartHomeController
             set { isPlaying = value; }
         }
 
-        public SmartSpeaker(int speakerVolume) 
+        public SmartSpeaker(int speakerVolume, int deviceID, string deviceName) : base(deviceID, deviceName)
         {
             this.Volume = speakerVolume;
 

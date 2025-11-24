@@ -26,7 +26,7 @@ namespace SmartHomeController
             set { targetTemperature = value; }
         }
 
-        public SmartThermostat(double thermostatCurrentTemperature, double thermostatTargetTemperature) 
+        public SmartThermostat(double thermostatCurrentTemperature, double thermostatTargetTemperature, int deviceID, string deviceName) : base(deviceID, deviceName)
         {
             this.CurrentTemperature = thermostatCurrentTemperature;
             this.TargetTemperature = thermostatTargetTemperature;
