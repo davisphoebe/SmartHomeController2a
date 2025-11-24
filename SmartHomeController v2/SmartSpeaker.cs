@@ -37,4 +37,4 @@ namespace SmartHomeController
             Console.WriteLine($"Volume: {Volume}, Play status (Yes or No): {(IsPlaying ? "YES" : "NO")}");
         }
     }
-}
+} 
